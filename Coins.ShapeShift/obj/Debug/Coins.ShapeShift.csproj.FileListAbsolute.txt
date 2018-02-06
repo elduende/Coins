@@ -1,0 +1,12 @@
+C:\Lab\Coins\Coins.ShapeShift\bin\Debug\Coins.ShapeShift.dll
+C:\Lab\Coins\Coins.ShapeShift\bin\Debug\Coins.ShapeShift.pdb
+C:\Lab\Coins\Coins.ShapeShift\bin\Debug\Coins.dll
+C:\Lab\Coins\Coins.ShapeShift\bin\Debug\Newtonsoft.Json.dll
+C:\Lab\Coins\Coins.ShapeShift\bin\Debug\System.Net.Http.Formatting.dll
+C:\Lab\Coins\Coins.ShapeShift\bin\Debug\Coins.pdb
+C:\Lab\Coins\Coins.ShapeShift\bin\Debug\Newtonsoft.Json.xml
+C:\Lab\Coins\Coins.ShapeShift\bin\Debug\System.Net.Http.Formatting.xml
+C:\Lab\Coins\Coins.ShapeShift\obj\Debug\Coins.ShapeShift.csprojResolveAssemblyReference.cache
+C:\Lab\Coins\Coins.ShapeShift\obj\Debug\Coins.ShapeShift.csproj.CoreCompileInputs.cache
+C:\Lab\Coins\Coins.ShapeShift\obj\Debug\Coins.ShapeShift.dll
+C:\Lab\Coins\Coins.ShapeShift\obj\Debug\Coins.ShapeShift.pdb

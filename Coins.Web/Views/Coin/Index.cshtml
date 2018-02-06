@@ -1,0 +1,80 @@
+﻿@model IEnumerable<Coins.Models.CoinModel>
+
+@{
+    ViewBag.Title = "Index";
+}
+
+<h2>Monedas</h2>
+
+<div class="container">
+    <table class="table">
+        <tr>
+            <th>
+                <div class="col col-sm-1">
+                    @Html.DisplayNameFor(model => model.Symbol)
+                </div>
+            </th>
+            <th>
+                <div class="col col-sm-1">
+                    @Html.DisplayNameFor(model => model.ImageSmall)
+                </div>
+            </th>
+            <th>
+                <div class="col col-sm-1">
+                    @Html.DisplayNameFor(model => model.Name)
+                </div>
+            </th>
+            <th>
+                <div class="col col-sm-1">
+                    @Html.DisplayNameFor(model => model.Cotizacion)
+                </div>
+            </th>
+            <th>
+                <div class="col col-sm-1">
+                    <div>Disponible</div>
+                </div>
+            </th>
+        </tr>
+
+        @foreach (var item in Model)
+        {
+        <tr>
+            <td>
+                <div class="col col-sm-1 ">
+                    @Html.DisplayFor(modelItem => item.Symbol)
+                </div>
+            </td>
+            <td>
+                <div class="col col-sm-1">
+                    <img src="@Url.Content(item.ImageSmall)" alt="@item.Symbol" />
+                </div>
+            </td>
+            <td>
+                <div class="col col-sm-8">
+                    @Html.DisplayFor(modelItem => item.Name)
+                </div>
+            </td>
+            <td>
+                <div class="col col-sm-1">
+                    @if (item.Cotizacion > 0)
+                    {
+                        @Html.DisplayFor(modelItem => item.Cotizacion)
+                    }
+                </div>
+            </td>
+            <td>
+                <div class="col col-sm-1">
+                    @if (item.Status == "available")
+                    {
+                        <div class="text-success">Si</div>
+                    }
+                    else
+                    {
+                        <div class="text-danger">No</div>
+                    }
+                </div>
+            </td>
+        </tr>
+        }
+    </table>
+</div>
