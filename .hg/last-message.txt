@@ -1,0 +1,2 @@
+Primera etapa de desacoplamiento de la API de ShapeShift del controlador CoinController.
+Corrección al error del refresh de la lista de monedas.
