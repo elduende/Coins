@@ -9,27 +9,27 @@
 <div class="container">
     <table class="table">
         <tr>
-            <th>
+            <th class="titulo">
                 <div class="col col-sm-1">
                     @Html.DisplayNameFor(model => model.Symbol)
                 </div>
             </th>
-            <th>
+            <th class="titulo">
                 <div class="col col-sm-1">
                     @Html.DisplayNameFor(model => model.ImageSmall)
                 </div>
             </th>
-            <th>
-                <div class="col col-sm-1">
+            <th class="titulo">
+                <div class="col col-sm-8">
                     @Html.DisplayNameFor(model => model.Name)
                 </div>
             </th>
-            <th>
+            <th class="titulo">
                 <div class="col col-sm-1">
                     @Html.DisplayNameFor(model => model.Cotizacion)
                 </div>
             </th>
-            <th>
+            <th class="titulo">
                 <div class="col col-sm-1">
                     <div>Disponible</div>
                 </div>
@@ -38,23 +38,23 @@
 
         @foreach (var item in Model)
         {
-        <tr>
-            <td>
+        <tr class="fila">
+            <td class="celda">
                 <div class="col col-sm-1 ">
                     @Html.DisplayFor(modelItem => item.Symbol)
                 </div>
             </td>
-            <td>
+            <td class="celda">
                 <div class="col col-sm-1">
                     <img src="@Url.Content(item.ImageSmall)" alt="@item.Symbol" />
                 </div>
             </td>
-            <td>
+            <td class="celda">
                 <div class="col col-sm-8">
                     @Html.DisplayFor(modelItem => item.Name)
                 </div>
             </td>
-            <td>
+            <td class="celda">
                 <div class="col col-sm-1">
                     @if (item.Cotizacion > 0)
                     {
@@ -62,7 +62,7 @@
                     }
                 </div>
             </td>
-            <td>
+            <td class="celda">
                 <div class="col col-sm-1">
                     @if (item.Status == "available")
                     {
@@ -78,3 +78,11 @@
         }
     </table>
 </div>
+
+<script>
+    $(document).ready(function() {
+        $("table").on("click", ".fila", function() {
+            window.alert("Anda");
+        });
+    });
+</script>

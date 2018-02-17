@@ -22,3 +22,41 @@ select,
 textarea {
     max-width: 280px;
 }
+
+/*Colores alternativos para las filas pares e impares de la tabla cuyo tag tr tenga definida la class fila*/
+.fila:nth-child(odd) {
+    background: #F0ffff;
+    color: #000000;
+}
+
+.fila:nth-child(even) {
+    background: #FFFFFF;
+    color: #000000;
+}
+
+/*Cambia atributos en el mouse over de los tr que tengan definida la class fila (exceptúa tos títulos)*/
+table .fila:hover {
+    background: #C0FFFF;
+    font-size: 1.02em;
+    font-weight: normal;
+}
+
+/*Cambia atributos en el mouse over de los td que tengan definida la class celda (exceptúa tos títulos)*/
+table .celda:hover {
+    background: #A0FFFF;
+    color: #0000FF;
+    font-weight: normal;
+}
+
+/*En el over de la img agranda la imagen en 2 en forma relativa*/
+table img:hover {
+    width: 2em;
+    height: 2em;
+}
+
+/*Define atributos de los títulos*/
+.titulo {
+    background: #00008B;
+    color: #F0F0F0;
+    font-weight: bold;
+}
