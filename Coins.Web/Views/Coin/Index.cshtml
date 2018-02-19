@@ -6,8 +6,10 @@
 
 <h2>Monedas</h2>
 
+<script src="http://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js" type="text/javascript"></script>
+
 <div class="container">
-    <table class="table">
+    <table class="table" id="Monedas">
         <tr>
             <th class="titulo">
                 <div class="col col-sm-1">
@@ -38,51 +40,55 @@
 
         @foreach (var item in Model)
         {
-        <tr class="fila">
-            <td class="celda">
-                <div class="col col-sm-1 ">
-                    @Html.DisplayFor(modelItem => item.Symbol)
-                </div>
-            </td>
-            <td class="celda">
-                <div class="col col-sm-1">
-                    <img src="@Url.Content(item.ImageSmall)" alt="@item.Symbol" />
-                </div>
-            </td>
-            <td class="celda">
-                <div class="col col-sm-8">
-                    @Html.DisplayFor(modelItem => item.Name)
-                </div>
-            </td>
-            <td class="celda">
-                <div class="col col-sm-1">
-                    @if (item.Cotizacion > 0)
-                    {
-                        @Html.DisplayFor(modelItem => item.Cotizacion)
-                    }
-                </div>
-            </td>
-            <td class="celda">
-                <div class="col col-sm-1">
-                    @if (item.Status == "available")
-                    {
-                        <div class="text-success">Si</div>
-                    }
-                    else
-                    {
-                        <div class="text-danger">No</div>
-                    }
-                </div>
-            </td>
-        </tr>
+            <tr class="fila">
+                <td class="celda">
+                    <div class="col col-sm-1 ">
+                        @Html.DisplayFor(modelItem => item.Symbol)
+                    </div>
+                </td>
+                <td class="celda">
+                    <div class="col col-sm-1">
+                        <img src="@Url.Content(item.ImageSmall)" alt="@item.Symbol" />
+                    </div>
+                </td>
+                <td class="celda">
+                    <div class="col col-sm-8">
+                        @Html.DisplayFor(modelItem => item.Name)
+                    </div>
+                </td>
+                <td class="celda">
+                    <div class="col col-sm-1">
+                        @if (item.Cotizacion > 0)
+                        {
+                            @Html.DisplayFor(modelItem => item.Cotizacion)
+                        }
+                    </div>
+                </td>
+                <td class="celda">
+                    <div class="col col-sm-1">
+                        @if (item.Status == "available")
+                        {
+                            <div class="text-success">Si</div>
+                        }
+                        else
+                        {
+                            <div class="text-danger">No</div>
+                        }
+                    </div>
+                </td>
+            </tr>
         }
     </table>
 </div>
 
-<script>
-    $(document).ready(function() {
-        $("table").on("click", ".fila", function() {
-            window.alert("Anda");
+<script type="text/javascript">
+    $(document).ready(function () {
+        $("#Monedas tr td").click(miFuncion);
         });
-    });
+
+    function miFuncion() {
+        var x = $(this).parent("tr");
+        x.css("background-color", "greenyellow");
+        $(this).css("background-color", "yellow");
+    }
 </script>
