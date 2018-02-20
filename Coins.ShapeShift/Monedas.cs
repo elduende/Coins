@@ -12,7 +12,7 @@ namespace Coins.ShapeShift
     {
         static HttpClient client = new HttpClient();
 
-        public static async Task<List<Coin>> InvocaSupportedCoins(string uri)
+        public static async Task<List<Coin>> SupportedCoins(string uri)
         {
             client.BaseAddress = new Uri(uri);
             client.DefaultRequestHeaders.Accept.Clear();

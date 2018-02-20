@@ -1,4 +1,4 @@
-﻿namespace Coins.Models
+﻿namespace Coins.Web.Models
 {
     public class CoinPairModel
     {
