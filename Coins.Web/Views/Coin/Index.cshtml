@@ -28,7 +28,7 @@
                     </div>
                 </th>
                 <th>
-                    <div class="col col-sm-1">
+                    <div class="col col-sm-1 col-right">
                         @Html.DisplayNameFor(model => model.Cotizacion)
                     </div>
                 </th>
@@ -58,7 +58,7 @@
                     </div>
                 </th>
                 <th>
-                    <div class="col col-sm-1">
+                    <div class="col col-sm-1 col-right">
                         @Html.DisplayNameFor(model => model.Cotizacion)
                     </div>
                 </th>
@@ -75,12 +75,12 @@
             {
                 <tr>
                     <td>
-                        <div class="col col-sm-1 ">
+                        <div class="col col-sm-1 col-center">
                             @Html.DisplayFor(modelItem => item.Symbol)
                         </div>
                     </td>
                     <td>
-                        <div class="col col-sm-1">
+                        <div class="col col-sm-1 col-center">
                             <img src="@Url.Content(item.ImageSmall)" alt="@item.Symbol" />
                         </div>
                     </td>
@@ -90,7 +90,7 @@
                         </div>
                     </td>
                     <td>
-                        <div class="col col-sm-1">
+                        <div class="col col-sm-1 col-right">
                             @if (item.Cotizacion > 0)
                             {
                                 @Html.DisplayFor(modelItem => item.Cotizacion)
@@ -98,7 +98,7 @@
                         </div>
                     </td>
                     <td>
-                        <div class="col col-sm-1">
+                        <div class="col col-sm-1 col-center">
                             @if (item.Status == "available")
                             {
                                 <div class="text-success">Si</div>

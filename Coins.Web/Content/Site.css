@@ -28,3 +28,15 @@ table img:hover {
     width: 2em;
     height: 2em;
 }
+
+/*Centra la columna de una table*/
+.col-center {
+    margin: auto;
+    text-align: center;
+}
+
+/*Alinea hacia la derecha la columna de una table*/
+.col-right {
+    margin: auto;
+    text-align: right;
+}
