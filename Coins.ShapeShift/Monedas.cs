@@ -14,6 +14,7 @@ namespace Coins.ShapeShift
 
         public static async Task<List<Coin>> SupportedCoins(string uri)
         {
+            client = new HttpClient();
             client.BaseAddress = new Uri(uri);
             client.DefaultRequestHeaders.Accept.Clear();
             var coins = await GetCoinsAsync(client.BaseAddress.ToString());

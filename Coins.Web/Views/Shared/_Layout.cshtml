@@ -36,8 +36,9 @@
             <p>&copy; @DateTime.Now.Year - Un buen punto de partida.</p>
         </footer>
     </div>
-
-    @Scripts.Render("~/bundles/jquery")
+    
+    @*Esta linea queda comentada porque provoca un conflicto que no deja que funcione la paginación de la Tables*@
+    @*@Scripts.Render("~/bundles/jquery")*@
     @Scripts.Render("~/bundles/bootstrap")
     @RenderSection("scripts", required: false)
 </body>
