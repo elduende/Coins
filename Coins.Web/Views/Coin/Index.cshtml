@@ -128,5 +128,14 @@
             $(this).toggleClass('selected');
         });
 
+        $('#Monedas tbody').on('click', 'td', function () {
+            $(this).fadeTo('slow', 0);
+            if ($(this).css('color') == 'rgb(0, 204, 0)')
+                $(this).css('color', '#ff0000');
+            else {
+                $(this).css('color', '#00cc00');
+            } 
+            $(this).fadeTo("slow", 1);
+        });
     });
 </script>
