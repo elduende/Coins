@@ -23,6 +23,7 @@ C:\Lab\Coins\Coins.Tests\bin\Debug\System.Web.WebPages.Razor.dll
 C:\Lab\Coins\Coins.Tests\bin\Debug\System.Web.Optimization.dll
 C:\Lab\Coins\Coins.Tests\bin\Debug\Coins.dll
 C:\Lab\Coins\Coins.Tests\bin\Debug\Coins.ShapeShift.dll
+C:\Lab\Coins\Coins.Tests\bin\Debug\System.Net.Http.Formatting.dll
 C:\Lab\Coins\Coins.Tests\bin\Debug\Coins.Web.pdb
 C:\Lab\Coins\Coins.Tests\bin\Debug\Coins.Web.dll.config
 C:\Lab\Coins\Coins.Tests\bin\Debug\Antlr3.Runtime.pdb
@@ -38,6 +39,7 @@ C:\Lab\Coins\Coins.Tests\bin\Debug\System.Web.WebPages.Razor.xml
 C:\Lab\Coins\Coins.Tests\bin\Debug\System.Web.Optimization.xml
 C:\Lab\Coins\Coins.Tests\bin\Debug\Coins.pdb
 C:\Lab\Coins\Coins.Tests\bin\Debug\Coins.ShapeShift.pdb
+C:\Lab\Coins\Coins.Tests\bin\Debug\System.Net.Http.Formatting.xml
 C:\Lab\Coins\Coins.Tests\bin\Debug\es\System.Web.Helpers.resources.dll
 C:\Lab\Coins\Coins.Tests\bin\Debug\es\System.Web.Mvc.resources.dll
 C:\Lab\Coins\Coins.Tests\bin\Debug\es\System.Web.Razor.resources.dll
@@ -49,5 +51,3 @@ C:\Lab\Coins\Coins.Tests\obj\Debug\Coins.Tests.csprojResolveAssemblyReference.ca
 C:\Lab\Coins\Coins.Tests\obj\Debug\Coins.Tests.csproj.CoreCompileInputs.cache
 C:\Lab\Coins\Coins.Tests\obj\Debug\Coins.Tests.dll
 C:\Lab\Coins\Coins.Tests\obj\Debug\Coins.Tests.pdb
-C:\Lab\Coins\Coins.Tests\bin\Debug\System.Net.Http.Formatting.dll
-C:\Lab\Coins\Coins.Tests\bin\Debug\System.Net.Http.Formatting.xml

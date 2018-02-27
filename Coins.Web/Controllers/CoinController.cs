@@ -11,7 +11,7 @@ namespace Coins.Web.Controllers
         // GET: Coin
         public async Task<ActionResult> Index()
         {
-            var coins = await Monedas.SupportedCoins("https://shapeshift.io/getcoins");
+            var coins = await Monedas.GetSupportedCoins("https://shapeshift.io/getcoins", true);
             var coinsModel = coins.Select(coin => coin.ToCoinModel()).ToList();
             return View(coinsModel);
         }

@@ -1,7 +1,7 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
-VisualStudioVersion = 15.0.27130.2020
+VisualStudioVersion = 15.0.27130.2036
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Coins.Web", "Coins.Web\Coins.Web.csproj", "{948BAE3D-A24F-4AE9-8B43-DBCF59BE8E3D}"
 EndProject
@@ -10,6 +10,8 @@ EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Coins.ShapeShift", "Coins.ShapeShift\Coins.ShapeShift.csproj", "{F4BB8B65-6A79-43BB-8A67-512935468A6D}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Coins", "Coins\Coins.csproj", "{F129FFCA-D83C-491D-B9C6-7BCACEEDE526}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Coins.Actualizador", "Coins.Actualizador\Coins.Actualizador.csproj", "{1B6189F5-7213-44B0-B7CB-6D513567DDA4}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -33,6 +35,10 @@ Global
 		{F129FFCA-D83C-491D-B9C6-7BCACEEDE526}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{F129FFCA-D83C-491D-B9C6-7BCACEEDE526}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{F129FFCA-D83C-491D-B9C6-7BCACEEDE526}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1B6189F5-7213-44B0-B7CB-6D513567DDA4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1B6189F5-7213-44B0-B7CB-6D513567DDA4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1B6189F5-7213-44B0-B7CB-6D513567DDA4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1B6189F5-7213-44B0-B7CB-6D513567DDA4}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
