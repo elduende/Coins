@@ -10,7 +10,7 @@ namespace Coins.ShapeShift
 {
     public static class Monedas
     {
-        static HttpClient _client = new HttpClient();
+        private static HttpClient _client = new HttpClient();
 
         public static async Task<List<Coin>> GetSupportedCoins(string uri, bool pConCotizaciones)
         {
