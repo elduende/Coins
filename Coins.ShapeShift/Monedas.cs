@@ -1,4 +1,5 @@
-﻿using System;
+﻿//https://info.shapeshift.io/api#api-10
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Net.Http;

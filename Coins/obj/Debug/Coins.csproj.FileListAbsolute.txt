@@ -1,6 +1,5 @@
 C:\Lab\Coins\Coins\bin\Debug\Coins.dll
 C:\Lab\Coins\Coins\bin\Debug\Coins.pdb
-C:\Lab\Coins\Coins\obj\Debug\Coins.csprojResolveAssemblyReference.cache
 C:\Lab\Coins\Coins\obj\Debug\Coins.csproj.CoreCompileInputs.cache
 C:\Lab\Coins\Coins\obj\Debug\Coins.dll
 C:\Lab\Coins\Coins\obj\Debug\Coins.pdb
